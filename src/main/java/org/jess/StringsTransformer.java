@@ -1,4 +1,4 @@
-package org.example;
+package org.jess;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,6 @@ import java.util.List;
  * Discuss the advantages of each approach.
  */
 
-  import java.util.*;
 public class StringsTransformer {
     private List<String> data = new ArrayList<String>();
     public StringsTransformer(List<String> startingData) {

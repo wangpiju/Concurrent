@@ -1,4 +1,4 @@
-package org.example;
+package org.jess;
 
 import com.lmax.disruptor.*;
 import com.lmax.disruptor.dsl.Disruptor;
