@@ -23,6 +23,7 @@ class ProcessorLatch implements Runnable{
             logger.error("Interrupted!!!", e);
         }
         countDownLatch.countDown();
+        logger.info("Now count: " + countDownLatch.getCount() );
     }
 }
 public class CounDownLatchDemo {
